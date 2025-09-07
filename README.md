@@ -1,5 +1,5 @@
 
-Aim:
+## Aim:
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
@@ -10,21 +10,20 @@ iv) Rotate and display the video
 ## Software Used
 Anaconda - Python 3.7
 ## Algorithm
-### Step 1:
-<br>
+## Step 1 :
+Import the cv2 and numpy package.
 
-### Step 2:
-<br>
+## Step 2 :
+Read the Video frame using the cv2.VideoCapture(0)
 
-### Step 3:
-<br>
+## Step 3 :
+Write the image using imwrite().
 
-### Step 4:
-<br>
+## Step 4 :
+Display the frame using the imshow().
 
-### Step 5:
-<br>
-
+## Step 5 :
+Divide the frame into halves and assign the smaller frame and Rotate the frame using the cv2.rotate().
 ## Program:
 
 ### Developed By:GAYATHRI K
@@ -38,11 +37,13 @@ import matplotlib.pyplot as plt
 from IPython.display import clear_output
 import time
 
+
 cap = cv2.VideoCapture(0)
 ret, frame = cap.read()
 if ret:
     cv2.imwrite("captured_frame.jpg", frame)
 cap.release()
+
 
 captured_image = cv2.imread('captured_frame.jpg')
 
@@ -142,9 +143,6 @@ cap.release()
 <img width="366" height="471" alt="image" src="https://github.com/user-attachments/assets/716fd9e5-cb95-4d4f-9bf4-913f597d1ada" />
 
 </br>
-
-
-
 
 
 ## Result:
