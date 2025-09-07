@@ -1,4 +1,6 @@
-
+## Image Acquisition using Web Camera
+### Developed By:GAYATHRI K
+### Register No:212223230016
 ## Aim:
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
@@ -26,8 +28,6 @@ Display the frame using the imshow().
 Divide the frame into halves and assign the smaller frame and Rotate the frame using the cv2.rotate().
 ## Program:
 
-### Developed By:GAYATHRI K
-### Register No:212223230016
 
 ## i) Write the frame as JPG file
 
